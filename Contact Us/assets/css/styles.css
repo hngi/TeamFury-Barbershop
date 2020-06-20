@@ -1,0 +1,168 @@
+/* The about page style */
+body{
+    overflow-x: hidden;
+}
+a{
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    justify-content: space-between ;
+    background: rgba(26, 25, 25, 0.5) !important;
+    font-size: 18px;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+    margin: auto 5px;
+}
+.nav-item a{
+    border-radius: 2px soilid transparent;
+}
+.nav-item a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+.navbar-toggler{
+    height: 30px !important;
+    width: 30px !important;
+    display: flex;
+    flex-direction: column;
+    outline: none !important;
+}
+.navbar-toggler:hover{
+    border-color: none;
+}
+.navbar-toggler span{
+    margin: 2px 0;
+    height: 3px !important;
+    background-color: #ffffff !important;
+}
+.first_Nav{
+    width: 25px;
+}
+.second_Nav{
+    width: 23px;
+}
+.third_Nav{
+    width: 20px;
+}
+
+.active{
+    font-weight: 600;
+}
+.logo_text{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 36px;
+    color: #FFFFFF !important;
+}
+.nav-link{
+    color: #FFFFFF !important;
+}
+.book_online_btn{
+    background-color: transparent;
+    margin: auto 3px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: 1.5px solid #ffffff;
+}
+/* End of Navigation stype */
+
+
+
+/* Footer styling */
+footer{
+    margin-top: 50px;
+    background: #000000;
+}
+.footer{
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+.news_and_offers{
+    font-size: 18px;
+    text-align: center;
+}
+.news_letter{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.news_letter div{
+    margin: 0 10px;
+}
+.news_letter input{
+    padding: 5px 10px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    outline: none;
+}
+.comp_socials{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.salon_Address{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.working_header{
+    font-weight: 600;
+}
+
+.footer_1{
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer_1 p{
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+.footer_genral_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.footer_logo{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    line-height: 39px;
+}
+.footer_logo p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ruslan Display';
+    font-size: 36px;
+}
+.footer_details{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.copyright{
+    padding: 14px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
