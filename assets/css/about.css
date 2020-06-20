@@ -80,6 +80,9 @@
 .our_team{
     background: rgba(66, 65, 65, 0.05);
 }
+.our_team .row{
+    margin: 0;
+}
 .our_team_text{
     margin: 20px;
     font-family: 'Noto Serif';
@@ -92,8 +95,6 @@
 }
 .team_members{
     overflow-x: hidden !important;
-    margin: 10px;
-    margin-right: 20px;
 }
 .team_member{
     margin:10px;
@@ -144,6 +145,12 @@
 
 
 @media(min-width:800px){
+    .team_members{
+        margin-right: 20px;
+    }
+    .landing{
+        padding: 10px 110px;
+    }
    .about_landing_img_cont{
         width: 100%;
         height: 500px;
@@ -166,5 +173,8 @@
     .comp_socials{
         justify-content: flex-end;
         margin-top: 0;
+    }
+    .about_skills{
+        padding : 20px 110px;
     }
 }
