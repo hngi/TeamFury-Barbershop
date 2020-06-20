@@ -96,35 +96,42 @@ button:hover{
     line-height: 24px;
     color: #000000;
     text-align: justify;
-    padding: 25px 50px;
+    padding: 25px 0px;
+    text-align: center;
+    margin: auto;
+    width: 75%;
 }
 .service-list{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px 50px;
+    padding: 0px 150px;
 }
 .hair{
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
     color: #424141;
+    text-align: center;
 }
 .hair-line-1{
     border: 2px solid #424141;
     width: 100px;
+    margin: auto;
 }
 .hair-line-2{
     border: 2px solid #424141;
     width: 120px;
+    margin: auto;
 }
 .hair-line-3{
     border: 2px solid #424141;
     width: 220px;
+    margin: auto;
 }
 .hair-line-4{
     border: 2px solid #424141;
     width: 320px;
+    margin: auto;
 }
 .hair-styles{
     display: flex;
@@ -151,23 +158,26 @@ button:hover{
     color: #424141;
     margin-top: 30px;
     margin-left: auto;
+    margin-right: 2%;
 }
 .service-book{
     display: flex;
     flex-direction: row;
-    margin: 35px 0px;
+    margin: 0px;
 }
 .service-about{
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     color: #000000;
-    align-self: center;
+    margin: auto;
+    text-align: center;
+    width: 50%;
 }
 .service-book-btn{
     background: #424141;
-    border-radius: 17px;
-    padding: 5px 35px;
+    border-radius: 5px;
+    padding: 10px 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
@@ -175,10 +185,10 @@ button:hover{
     line-height: 23px;
     color: #FFFFFF;
     border: none;
-    margin-left: 300px;
+    margin: 1% 0;
 }
 .service-tables{
-    margin: 25px 0px 100px;
+    margin: 1% auto 100px;
 }
 table, th, td {
     border: 3px solid black;
@@ -190,6 +200,7 @@ th p{
     line-height: 27px;
     color: #DFAE02;
     padding: 12px 84px;
+    text-align: center;
 }
 td p{
     font-weight: normal;
@@ -355,12 +366,13 @@ td p{
         height: 30px !important;
     }
     .service-description{
-        padding: 10px !important;
+        padding: 30px !important;
         font-size: 13px !important;
         line-height: 2 !important;
+        width: 100%;
     }
     .service-list{
-        padding: 0px !important;
+        padding: 30px !important;
     }
     .hair-styles{
         flex-direction: column !important;
@@ -386,7 +398,7 @@ td p{
     }
     .hair{
         font-size: 20px !important;
-        margin-top: 33px !important;
+        margin: 0px;
     }
     .hair-line-1{
         margin-top: 0px !important;
@@ -419,7 +431,7 @@ td p{
     }
     .service-about{
         font-size: 15px !important;
-        text-align: center !important;
+        width: 100%;
     }
     .service-book{
         flex-direction: column !important;
@@ -427,14 +439,14 @@ td p{
         margin-bottom: 0px !important;
     }
     .service-book-btn{
-        margin: 0px !important;
+        margin: 1% 0px !important;
         width: 100px !important;
         font-size: 12px !important;
         margin-left: auto !important;
-        margin-top: 20px !important;
+        padding: 8px 15px;
     }
     .service-tables{
-        margin: 10px 0px !important;
+        margin: 10px auto !important;
     }
     table, th, td {
         border: 2px solid black !important;
@@ -443,15 +455,17 @@ td p{
         font-weight: bold;
         font-size: 12px !important;
         line-height: 13px !important;
-        padding: 5px !important;
+        padding: 10px !important;
+        margin: 0px;
     }
     td p{
         font-weight: normal;
         font-size: 10px !important;
         line-height: 10px !important;
         color: #000000;
-        padding: 5px 25px !important;
+        padding: 10px !important;
         text-align: center;
+        margin: 0px;
     }
     .none{
         display: none;
