@@ -78,9 +78,10 @@ header {
 .book_online_btn {
   background-color: transparent;
   margin: auto 3px;
-  border-radius: 20px;
+  border-radius: 5px;
   color: #ffffff;
   border: 1.5px solid #ffffff;
+  padding: 10px 35px;
 }
 /* End of Navigation stype */
 
@@ -462,5 +463,8 @@ footer {
   }
   .sectionv .item {
     width: 100%;
+}
+.book_online_btn{
+  padding: 5px 15px;
 }
 }
