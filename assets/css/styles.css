@@ -41,7 +41,7 @@ header {
   margin-right: 20px;
   padding-right: 10px;
   height: 30px !important;
-  width: 30px !important;
+  width: 50px !important;
   display: flex;
   flex-direction: column;
   outline: none !important;
@@ -293,18 +293,21 @@ footer {
 }
 .news_and_offers {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 .news_letter {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
 }
 .news_letter div {
-  margin: 0 10px;
+  margin: 10px 0;
+  /* margin: 0 10px; */
 }
 .news_letter input {
-  padding: 5px 10px;
+  width: 100%;
+  padding: 10px;
   background-color: #000000;
   border: 1px solid #ffffff;
   border-radius: 20px;
@@ -382,6 +385,12 @@ footer {
   .comp_socials {
     justify-content: flex-end;
     margin-top: 0;
+  }
+  .news_letter{
+    flex-direction: row;
+  }
+  .news_letter div{
+    margin: 0 10px; 
   }
 }
 @media screen and (max-width: 992px) {
