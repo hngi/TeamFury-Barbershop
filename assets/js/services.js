@@ -8,24 +8,28 @@ for (let i = 0; i < serviceIcon.length; i++) {
             serviceIcon[1].classList.remove('color-circle-active');
             serviceIcon[2].classList.remove('color-circle-active');
             serviceIcon[3].classList.remove('color-circle-active');
+            // Add a background image to the first slide
             services.style.backgroundImage = 'url("../assets/img/bg-1.png")'
         }else if(i === 1){
             serviceIcon[1].classList.add('color-circle-active');
             serviceIcon[0].classList.remove('color-circle-active');
             serviceIcon[2].classList.remove('color-circle-active');
             serviceIcon[3].classList.remove('color-circle-active');
+            // Add a background image to the second slider
             services.style.backgroundImage = 'url("../assets/img/bg-1.png")'
         }else if(i === 2){
             serviceIcon[2].classList.add('color-circle-active');
             serviceIcon[1].classList.remove('color-circle-active');
             serviceIcon[0].classList.remove('color-circle-active');
             serviceIcon[3].classList.remove('color-circle-active');
+            // Add a background image to the third slider
             services.style.backgroundImage = 'url("../assets/img/bg-1.png")'
         }else if(i === 3){
             serviceIcon[3].classList.add('color-circle-active');
             serviceIcon[1].classList.remove('color-circle-active');
             serviceIcon[2].classList.remove('color-circle-active');
             serviceIcon[0].classList.remove('color-circle-active');
+            // Add a background image to the fourth slider
             services.style.backgroundImage = 'url("../assets/img/bg-1.png")'
         }
     })
