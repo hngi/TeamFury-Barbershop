@@ -98,10 +98,10 @@ header {
 .book_online_btn {
     background-color: transparent;
     margin: auto 3px;
-    border-radius: 5px;
+    border-radius: 25vh;
     color: #ffffff;
     border: 1.5px solid #ffffff;
-    padding: 10px 35px;
+    padding: 5px 35px;
 }
 
 
@@ -345,11 +345,35 @@ header {
 
 /* Footer styling */
 
+.Container_Btn button {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    background: #424141;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: 1px solid #424141;
+}
+
 footer {
     margin-top: 50px;
     background: #000000;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.member_name p {
+    margin: 5px;
+}
+
+.member_socials ion-icon {
+    font-size: 20px;
+    margin: 8px;
 }
 
 .footer {
