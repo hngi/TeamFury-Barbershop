@@ -85,10 +85,8 @@ header {
     font-weight: 600;
 }
 
-.logo_text {
-    font-family: "Ruslan Display", cursive;
-    font-size: 36px;
-    color: #ffffff !important;
+header .navbar-brand {
+    /* height: 20px; */
 }
 
 .nav-link {
@@ -494,6 +492,9 @@ footer {
     .news_letter div {
         margin: 0 10px;
     }
+    .logo_text {
+        padding-left: 80px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -576,5 +577,9 @@ footer {
     }
     .book_online_btn {
         padding: 5px 15px;
+    }
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

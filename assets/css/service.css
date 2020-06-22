@@ -1,59 +1,76 @@
-* { 
-    margin:0; padding:0; box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.active{
+
+.active {
     display: flex;
 }
-p{
+
+p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #FFFFFF;
     margin: 0px;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
-.nav-bar{
+
+.nav-bar {
     background: rgba(22, 21, 21, 0.986);
     color: white;
     display: flex;
     flex-direction: row;
     padding: 50px 130px;
 }
-.hamb-icon{
+
+.hamb-icon {
     display: none;
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     flex-direction: row;
     margin-left: auto;
 }
-.div-items{
+
+.div-items {
     margin-left: auto;
 }
-.nav-item{
+
+.nav-item {
     margin: 0px 20px;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     align-self: center;
 }
-.nav-item:hover, .nav-item-bold:hover, .logo img:hover, .more:hover{
+
+.nav-item:hover,
+.nav-item-bold:hover,
+.logo img:hover,
+.more:hover {
     cursor: pointer;
     color: red;
     font-weight: bolder;
 }
-.nav-item-bold{
+
+.nav-item-bold {
     margin: 0px 20px;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     align-self: center;
 }
-.phone-icon{
+
+.phone-icon {
     margin-right: 5px;
 }
-.btn-booking{
+
+.btn-booking {
     border: 1.5px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 20px;
@@ -67,12 +84,15 @@ button:hover{
     color: #FFFFFF;
     margin-left: 20px;
 }
-.btn-booking:hover, .service-book-btn:hover{
+
+.btn-booking:hover,
+.service-book-btn:hover {
     background: white;
     color: rgba(22, 21, 21, 0.986);
     border: 2px solid rgba(22, 21, 21, 0.986);
 }
-.services{
+
+.services {
     background-image: url(../img/bg-1.png);
     background-size: cover;
     width: auto;
@@ -83,31 +103,38 @@ button:hover{
     align-items: center;
     justify-content: space-around;
 }
-.div-color-circle{
+
+.div-color-circle {
     display: flex;
     flex-direction: row;
 }
-.color-circle{
+
+.color-circle {
     width: 13px;
     height: 13px;
     border-radius: 50%;
     background: white;
     margin: 0px 5px;
 }
-.color-circle:hover{
+
+.color-circle:hover {
     cursor: pointer;
 }
-.color-circle-active{
+
+.color-circle-active {
     background: #DFAE02;
 }
-.our-services{
+
+.our-services {
     font-weight: 500;
     font-size: 36px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    padding-top: 20vh;
 }
-.service-description{
+
+.service-description {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
@@ -118,57 +145,68 @@ button:hover{
     margin: auto;
     width: 75%;
 }
-.service-list{
+
+.service-list {
     display: flex;
     flex-direction: column;
     padding: 0px 150px;
 }
-.hair{
+
+.hair {
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
     color: #424141;
     text-align: center;
 }
-.hair-line-1{
+
+.hair-line-1 {
     border: 2px solid #424141;
     width: 100px;
     margin: auto;
 }
-.hair-line-2{
+
+.hair-line-2 {
     border: 2px solid #424141;
     width: 120px;
     margin: auto;
 }
-.hair-line-3{
+
+.hair-line-3 {
     border: 2px solid #424141;
     width: 220px;
     margin: auto;
 }
-.hair-line-4{
+
+.hair-line-4 {
     border: 2px solid #424141;
     width: 320px;
     margin: auto;
 }
-.hair-styles{
+
+.hair-styles {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
 }
-.style-1{
+
+.style-1 {
     margin-right: 50px;
 }
-.style-3{
+
+.style-3 {
     margin: 30px 0px 0px;
 }
-.style-2_style-3{
+
+.style-2_style-3 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 0px 50px;
 }
-.more{
+
+.more {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -177,12 +215,14 @@ button:hover{
     margin-left: auto;
     margin-right: 2%;
 }
-.service-book{
+
+.service-book {
     display: flex;
     flex-direction: row;
     margin: 0px;
 }
-.service-about{
+
+.service-about {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
@@ -191,7 +231,8 @@ button:hover{
     text-align: center;
     width: 50%;
 }
-.service-book-btn{
+
+.service-book-btn {
     background: #424141;
     border-radius: 5px;
     padding: 10px 35px;
@@ -204,14 +245,19 @@ button:hover{
     border: none;
     margin: 1% 0;
 }
-.service-tables{
+
+.service-tables {
     margin: 1% auto 100px;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 3px solid black;
     border-collapse: collapse;
 }
-th p{
+
+th p {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
@@ -219,7 +265,8 @@ th p{
     padding: 12px 84px;
     text-align: center;
 }
-td p{
+
+td p {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
@@ -227,19 +274,22 @@ td p{
     padding: 12px 84px;
     text-align: center;
 }
-.row-1{
+
+.row-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.offers{
+
+.offers {
     font-weight: 500;
     font-size: 18px;
     line-height: 0px;
     color: #FFFFFF;
     align-self: center;
 }
-.email{
+
+.email {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 20px;
@@ -252,10 +302,12 @@ td p{
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-::placeholder{
+
+::placeholder {
     color: #FFFFFF;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     background: #424141;
     border-radius: 20px;
     padding: 6px 21px;
@@ -267,7 +319,8 @@ td p{
     border: none;
     margin-left: -100px;
 }
-.keep-touch{
+
+.keep-touch {
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
@@ -275,50 +328,60 @@ td p{
     color: #FFFFFF;
     align-self: center;
 }
-.social-icons{
+
+.social-icons {
     align-self: center;
 }
-.social-icons img{
+
+.social-icons img {
     margin: 0px 5px;
 }
-.row-2{
+
+.row-2 {
     display: flex;
     flex-direction: row;
     border-right: 3px solid rgba(255, 255, 255, 0.3);
     width: 72%;
     padding: 30px;
 }
-.row-col{
+
+.row-col {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.col{
+
+.col {
     width: 100%;
     /* margin-right: 20px; */
 }
-.col-1{
+
+.col-1 {
     width: 100%;
     margin-right: 100px;
 }
-.work-time{
+
+.work-time {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.work-title{
+
+.work-title {
     font-weight: bolder;
 }
-.location{
+
+.location {
     font-weight: normal;
     font-size: 15px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.copyright{
+
+.copyright {
     font-weight: normal;
     font-size: 14px;
     line-height: 30px;
@@ -327,32 +390,34 @@ td p{
     text-align: center;
     margin-top: 20px;
 }
+
 @media (max-width: 575px) {
-    .main-body{
+    .main-body {
         width: auto !important;
     }
-    .position{
+    .position {
         width: auto !important;
     }
-    .div-items{
+    .div-items {
         margin-left: auto !important;
     }
-    .nav-items{
+    .nav-items {
         display: none;
         flex-direction: column !important;
         justify-content: right !important;
         transition: all 0.5% ease !important;
     }
-    .active{
+    .active {
         display: flex !important;
     }
-    .nav-item, .nav-item-bold{
+    .nav-item,
+    .nav-item-bold {
         text-align: right !important;
         margin: 0px 0px 5px !important;
         align-self: initial !important;
         font-size: 14px !important;
     }
-    .btn-booking{
+    .btn-booking {
         margin: 0px !important;
         align-self: initial !important;
         font-size: 12px !important;
@@ -360,122 +425,125 @@ td p{
         margin-top: 5px !important;
         border-radius: 3px !important;
     }
-    .hamb-icon{
+    .hamb-icon {
         display: block !important;
         margin-left: auto;
         width: 25px !important;
         height: 25px !important;
         margin-bottom: 20px !important;
     }
-    .nav-bar{
+    .nav-bar {
         /* width: auto !important; */
         padding: 20px 20px !important;
     }
-    .services{
+    .services {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         width: auto !important;
         height: 280px !important;
         margin: 0px !important;
     }
-    .logo img{
+    .logo img {
         width: 60px !important;
         height: 30px !important;
     }
-    .service-description{
+    .service-description {
         padding: 30px !important;
         font-size: 13px !important;
         line-height: 2 !important;
         width: 100%;
     }
-    .service-list{
+    .service-list {
         padding: 30px !important;
     }
-    .hair-styles{
+    .hair-styles {
         flex-direction: column !important;
         margin-top: 25px !important;
     }
-    .style-1{
+    .style-1 {
         margin-right: auto !important;
         height: 200px !important;
         width: 70% !important;
         justify-content: center !important;
         margin-left: auto !important;
     }
-    .style-2, .style-3{
+    .style-2,
+    .style-3 {
         margin: 10px 0px 0px !important;
         height: 95px !important;
         width: 45% !important;
     }
-    .style-2_style-3{
+    .style-2_style-3 {
         flex-direction: row !important;
         justify-content: space-between;
         margin: 0px !important;
         padding: 0px 30px !important;
     }
-    .hair{
+    .hair {
         font-size: 20px !important;
         margin: 0px;
     }
-    .hair-line-1{
+    .hair-line-1 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         border: 1px solid #424141 !important;
         width: 50px !important;
     }
-    .hair-line-2{
+    .hair-line-2 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         border: 1px solid #424141 !important;
         width: 70px !important;
     }
-    .hair-line-3{
+    .hair-line-3 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         border: 1px solid #424141 !important;
         width: 120px !important;
     }
-    .hair-line-4{
+    .hair-line-4 {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         border: 1px solid #424141 !important;
         width: 200px !important;
     }
-    .more{
+    .more {
         font-size: 15px !important;
         padding: 0px 20px !important;
         margin-top: 16px !important;
     }
-    .service-about{
+    .service-about {
         font-size: 15px !important;
         width: 100%;
     }
-    .service-book{
+    .service-book {
         flex-direction: column !important;
         padding: 15px !important;
         margin-bottom: 0px !important;
     }
-    .service-book-btn{
+    .service-book-btn {
         margin: 1% 0px !important;
         width: 100px !important;
         font-size: 12px !important;
         margin-left: auto !important;
         padding: 8px 15px;
     }
-    .service-tables{
+    .service-tables {
         margin: 10px auto !important;
     }
-    table, th, td {
+    table,
+    th,
+    td {
         border: 2px solid black !important;
     }
-    th p{
+    th p {
         font-weight: bold;
         font-size: 12px !important;
         line-height: 13px !important;
         padding: 10px !important;
         margin: 0px;
     }
-    td p{
+    td p {
         font-weight: normal;
         font-size: 10px !important;
         line-height: 10px !important;
@@ -484,74 +552,71 @@ td p{
         text-align: center;
         margin: 0px;
     }
-    .none{
+    .none {
         display: none;
     }
-    .row-1{
+    .row-1 {
         flex-direction: column !important;
     }
-    .offers{
+    .offers {
         font-size: 12px !important;
         align-self: initial !important;
         margin-left: 10px !important;
     }
-    .email{
+    .email {
         width: 80% !important;
         font-size: 12px !important;
         margin-top: 20px !important;
     }
-    .btn-subscribe{
+    .btn-subscribe {
         margin-left: 0px !important;
         width: 50% !important;
         font-size: 12px !important;
         margin-top: 5px !important;
     }
-    .keep-touch{
+    .keep-touch {
         font-size: 12px !important;
         align-self: initial !important;
         margin-left: 10px !important;
         margin-top: 50px !important;
     }
-    .social-icons{
+    .social-icons {
         align-self: initial !important;
     }
-    .social-icons img{
+    .social-icons img {
         width: 20px !important;
         height: 20px !important;
     }
-    .row-2{
+    .row-2 {
         border: none !important;
         flex-direction: column !important;
         width: 100% !important;
         padding: 10px !important;
     }
-    .location{
+    .location {
         font-size: 14px !important;
         line-height: 30px !important;
         letter-spacing: 0.03em !important;
     }
-    .row-col{
+    .row-col {
         flex-direction: row !important;
     }
-    .col{
+    .col {
         margin-right: 0px !important;
     }
-    .work-title{
+    .work-title {
         font-size: 14px !important;
     }
-    .work-time{
+    .work-time {
         font-size: 12px !important;
     }
-    .copyright{
+    .copyright {
         font-size: 10px !important;
     }
 }
-@media (min-width: 768px) {
-    
-}
-@media (min-width: 1024px) {
 
-}
-@media (min-width: 1440px) {
+@media (min-width: 768px) {}
 
-}
+@media (min-width: 1024px) {}
+
+@media (min-width: 1440px) {}
