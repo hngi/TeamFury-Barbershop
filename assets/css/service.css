@@ -83,6 +83,23 @@ button:hover{
     align-items: center;
     justify-content: space-around;
 }
+.div-color-circle{
+    display: flex;
+    flex-direction: row;
+}
+.color-circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+    margin: 0px 5px;
+}
+.color-circle:hover{
+    cursor: pointer;
+}
+.color-circle-active{
+    background: #DFAE02;
+}
 .our-services{
     font-weight: 500;
     font-size: 36px;
