@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&display=swap"
+        rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets//css/styles.css">
@@ -19,7 +20,7 @@
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div>
-                <a class="navbar-brand logo_text" href="#"><img src="../assets/img/logo-white.png" alt="Logo Icon" style="height: 70px;"></a>
+                <a class="navbar-brand logo_text" href="#">YOLO</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="first_Nav"></span>
@@ -31,14 +32,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="../pages/about-page.html">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./services.html">Services</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -53,9 +54,9 @@
     <div class="container-fluid p-0">
         <div class="sec-1">
             <div class="d-flex justify-content-left">
-                <div class="d-flex flex-column sec-title">
+                <div class="d-flex flex-column">
                     <h1 class="site-title">Contact Us</h1>
-                    <p class="par">Need to talk to us on your <br>personal grooming, hair style, home service, <br>or any other enquiry?</p>
+                    <p class="par">Need to talk to us on your personal grooming, hair style, home service, or any other enquiry?</p>
                 </div>
             </div>
         </div>
@@ -67,30 +68,41 @@
         <div class="container">
             <div class="row ml-3">
                 <div class="col-md-6">
-                    <form>
+                    <form method = "post" action = "mailer.php">
+
+                         <?php
+                         
+                     if(isset($_GET['success']) && ($_GET['success'] == 1)) {
+                            echo "<div class=\"form-messages success\">Thank you! your message has been sent</div>";
+                          }
+         
+                    if(isset($_GET['success']) && ($_GET['success'] == -1)) {
+                       echo "<div class=\"form-messages error\">something went wrong</div>";
+                         }
+                         ?>
                         <h3 class="ret"><span class="sec-span">Contact</span> Us</h3>
 
                         <div class="form-row">
                             <div class="form-group col-md-12 ">
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your name">
+                                <input type="text" name = "name" class="form-control" id="inputEmail4" placeholder="Enter your name" required>
                             </div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email address">
+                                <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Enter your email address" required>
                             </div>
                         </div>
 
 
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <textarea class="form-control" id="inputEmail4" placeholder="Enter your message here" rows="10" cols="100">
+                                <textarea class="form-control" name="message" id="inputEmail4" placeholder="Enter your message here" rows="10" cols="100" required>
                             </textarea>
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-bg btn-lg btn-block mb-3">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -144,7 +156,7 @@
     </main>
     <!-- footer -->
     <footer>
-        <div class="container-fluid footer">
+        <div class="container footer">
             <div class="row footer_1">
                 <div class="col-md">
                     <p class="news_and_offers">NEWS AND OFFERS</p>
@@ -175,7 +187,7 @@
 
             <div class="row footer_details">
                 <div class="col-12 col-md-4">
-                    <p class="salon_Address">Plot 1234 Moon Light Street, PMB 12345<br /> Planet Island, Lugul Location
+                    <p class="salon_Address">Plot 1234 Demola Adetokunbo Street, PMB 12345<br /> Victoria Island, Lagos Nigeria
                     </p>
                     <p> <a href="callto:+234 806 598 2341">+234 806 598 2341</a> </p>
                     <p class="salon_Address"> <a href="mailto:info@barbershop.com">info@barbershop.com</a> </p>
@@ -198,7 +210,7 @@
                 </div>
 
                 <div class="col-12 col-md-2 footer_logo align-items-center">
-                    <img src="../assets/img/logo-white.png" alt="Logo Icon">
+                    <p>Yola</p>
                 </div>
 
             </div>
