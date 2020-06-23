@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&display=swap"
-        rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets//css/styles.css">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
+                        <button type="submit" class="btn btn-bg btn-lg btn-block mb-3">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -156,7 +156,7 @@
     </main>
     <!-- footer -->
     <footer>
-        <div class="container footer">
+        <div class="container-fluid footer">
             <div class="row footer_1">
                 <div class="col-md">
                     <p class="news_and_offers">NEWS AND OFFERS</p>
@@ -187,7 +187,7 @@
 
             <div class="row footer_details">
                 <div class="col-12 col-md-4">
-                    <p class="salon_Address">Plot 1234 Demola Adetokunbo Street, PMB 12345<br /> Victoria Island, Lagos Nigeria
+                  <p class="salon_Address">Plot 1234 Moon Light Street, PMB 12345<br /> Planet Island, Lugul Location
                     </p>
                     <p> <a href="callto:+234 806 598 2341">+234 806 598 2341</a> </p>
                     <p class="salon_Address"> <a href="mailto:info@barbershop.com">info@barbershop.com</a> </p>
@@ -210,7 +210,7 @@
                 </div>
 
                 <div class="col-12 col-md-2 footer_logo align-items-center">
-                    <p>Yola</p>
+                    <img src="../assets/img/logo-white.png" alt="Logo Icon">
                 </div>
 
             </div>
