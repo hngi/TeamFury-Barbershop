@@ -87,6 +87,7 @@ body {
     cursor: pointer;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
 }
 
 
@@ -117,3 +118,51 @@ body {
         width: 100%;
     }
 }
+=======
+}
+
+
+/*Section 3 styling*/
+
+.sec-3 {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    .sec-2 .img-fluid {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sec-2 .col-md-6 {
+        /* margin-left: 10%; */
+    }
+    .site-title {
+        padding-bottom: 5%;
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+ /* formmessages */
+ .form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .success {background-color: rgba(38, 191, 68, 0.8);}
+  .error {background-color: rgba(209, 46, 46, 0.8);}
+>>>>>>> fe6787117b52db2f688f0f8af4fd91292cc0c3da
