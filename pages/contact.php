@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="../pages/about-page.html">About Us</a>
@@ -90,7 +90,7 @@
 
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Enter your email address" required>
+                                <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Enter our email address" required>
                             </div>
                         </div>
 
